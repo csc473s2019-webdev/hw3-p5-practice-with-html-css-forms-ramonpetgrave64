@@ -14,7 +14,10 @@
     <p id='description'>Some information we would like to collect</p>
 
     <form id='survey-form' action="https://crossorigin.me/https://freecodecamp.com" method="get">
-      <input required type="text" name="name" id="name" placeholder="Enter your name">
+      <div class='form-group row'>
+        <label id='name-label' for="name">Name:</label>
+        <input required type="text" name="name" id="name" placeholder="Enter your name">
+      </div>
       <input required type="email" name="email" id="email" placeholder="Enter your Email address">
       <input type="number" name="number" id="number" min='1' placeholder="Enter your best guess">
     </form>
